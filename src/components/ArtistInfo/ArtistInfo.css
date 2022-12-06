@@ -1,0 +1,16 @@
+.ArtistInfo {
+ 
+  flex-direction: column;
+  background-color:white;
+  height: 15%;
+  width: 18vw;
+}
+
+.ArtistInfo img {
+  width: 50%;
+}
+
+.AllElements ::selection {
+  background: none;
+  color: none;
+}

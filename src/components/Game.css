@@ -1,0 +1,146 @@
+.GameHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.BackHome Button {
+  background-color:black;
+  margin-bottom: 2vw;
+  margin-top: 2vw;
+}
+
+@keyframes scoreAnim {
+  0% {
+    color: black;
+  }
+  25% {
+    color: white;
+  }
+  50% {
+    color: black;
+  }
+  65% {
+    color: white;
+  }
+  80% {
+    color: black;
+  }
+  90% {
+    color: white;
+  }
+  100% {
+    color: black;
+  }
+}
+
+#score:before {
+  font-size: 100%;
+  color: white;
+
+  content: "Score: ";
+  animation-name: scoreAnim;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes searching {
+  0% {
+    color: black;
+  }
+  25% {
+    color: white;
+  }
+  50% {
+    color: black;
+  }
+  65% {
+    color: white;
+  }
+  80% {
+    color: black;
+  }
+  90% {
+    color: white;
+  }
+  100% {
+    color: black;
+  }
+}
+
+#searching::before {
+  content: "Loading...";
+  animation-name: searching;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes wheel {
+  0% {
+    content: "⊕";
+  }
+  25% {
+    content: "⊗";
+  }
+  50% {
+    content: "⊕";
+  }
+  65% {
+    content: "⊗";
+  }
+  80% {
+    content: "⊕";
+  }
+  90% {
+    content: "⊗";
+  }
+  100% {
+    content: "⊕";
+  }
+}
+
+#wheel::before {
+  content: "⊘";
+  color:black;
+  animation-name: wheel;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes titleAnim {
+  0% {
+    color: black;
+  }
+  25% {
+    color: black;
+  }
+  50% {
+    color:black;
+  }
+  65% {
+    color: black;
+  }
+  80% {
+    color:black;
+  }
+  90% {
+    color: black;
+  }
+  100% {
+    color: black
+  }
+}
+
+#title::before {
+  content: "Start Guessing!";
+  font-family: cursive;
+  color: white;
+  animation-name: titleAnim;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}

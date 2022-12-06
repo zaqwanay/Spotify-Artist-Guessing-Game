@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+  background-color: black
+}
+
+a {
+  text-decoration: none;
+}
+
+.AllSite h4 {
+  text-align: right;
+  margin-top: 10px;
+  color: black;
+  font-family: cursive;
+}
+.AllSite h5 {
+  text-align: right;
+  margin-top: 10px;
+  color: orange;
+  font-family: cursive;
+}
+
+.AllSite {
+
+  justify-self: center;
+}
+
+.mainform {
+  
+}
+
+/* .Options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50vw;
+} */
+
+.Options Select {
+  width: 40%;
+  margin-bottom: 1vw;
+}
+
+.Options Button {
+  margin-top: 1vw;
+  background-color:black;
+  border-radius: 5px;
+}
+
+InputLabel {
+  color: white;
+}

@@ -1,0 +1,97 @@
+.AllElements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  background-color: rgb(238, 247, 242);
+  
+  width: 75vw;
+  margin-bottom: 5vw;
+}
+
+.AllElements button {
+  height: 50%;
+  margin-left: 1vw;
+  margin-bottom: 2vw;
+}
+
+.HowlButton {
+  width: 6vw;
+}
+
+.ArtistElements {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ArtistElements button {
+  padding: 0%;
+  border: 0px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+.WrongButton {
+  background-color: red;
+  padding: 0%;
+  border: 0px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+.RightButton {
+  background-color: rgb(0, 42, 255);
+  padding: 0%;
+  border: 0px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+.HowlerButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.HowlerButtons button {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.HowlerButtons button:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.05) rotate(-0.5deg);
+}
+
+.PlayPause {
+  display: flex;
+  flex-direction: row;
+}
+
+.NextSong {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.NextSong button {
+  width: 8vw;
+  align-self: center;
+}
+
+.NextSong p {
+  align-self: center;
+  text-align: center;
+  font-size: large;
+  margin-top: 1vw;
+}
